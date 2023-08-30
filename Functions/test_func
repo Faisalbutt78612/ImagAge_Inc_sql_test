@@ -1,1 +1,11 @@
+//Syntax of Functions
+
+CREATE FUNCTION function_name
+    (@parameter1 data_type, @parameter2 data_type, ...)
+RETURNS return_data_type
+AS
+BEGIN
+    -- Function logic here
+    RETURN result_expression;
+END;
 
